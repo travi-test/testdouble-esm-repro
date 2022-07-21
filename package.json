@@ -1,0 +1,25 @@
+{
+  "name": "testdouble-esm-repro",
+  "private": true,
+  "type": "module",
+  "description": "this repository is a minimal reproduction of argument matching failing for imported functions when using testdouble in an ESM context",
+  "scripts": {
+    "test": "mocha --loader=testdouble 'src/**/*-test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travi-test/testdouble-esm-repro.git"
+  },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/travi-test/testdouble-esm-repro/issues"
+  },
+  "homepage": "https://github.com/travi-test/testdouble-esm-repro#readme",
+  "devDependencies": {
+    "@travi/any": "2.1.5",
+    "chai": "4.3.6",
+    "mocha": "10.0.0",
+    "testdouble": "3.16.6"
+  }
+}
